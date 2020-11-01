@@ -10,4 +10,9 @@ import Foundation
 
 struct K{
     static let cellIdentifier = "cell"
+    static let segue = "goToComments"
+    
+    struct secondVC {
+        static let cellIdentifier = "secondCell"
+    }
 }

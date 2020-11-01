@@ -16,6 +16,9 @@
 		A2E55212254E94FF006ADEFC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E55211254E94FF006ADEFC /* Constants.swift */; };
 		A2E55214254E95EC006ADEFC /* PostsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E55213254E95EC006ADEFC /* PostsManager.swift */; };
 		A2E55216254EB3FB006ADEFC /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E55215254EB3FB006ADEFC /* PostModel.swift */; };
+		A2E55218254EBA20006ADEFC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E55217254EBA20006ADEFC /* SecondViewController.swift */; };
+		A2E5521A254EC30E006ADEFC /* CommentsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E55219254EC30E006ADEFC /* CommentsManager.swift */; };
+		A2E5521C254EC331006ADEFC /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E5521B254EC331006ADEFC /* CommentModel.swift */; };
 		A4668CC8DC23882DFE4B4119 /* Pods_PostsAppTwo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B2ECFE67CA1B573BEF6E27 /* Pods_PostsAppTwo.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +35,9 @@
 		A2E55211254E94FF006ADEFC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A2E55213254E95EC006ADEFC /* PostsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsManager.swift; sourceTree = "<group>"; };
 		A2E55215254EB3FB006ADEFC /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		A2E55217254EBA20006ADEFC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A2E55219254EC30E006ADEFC /* CommentsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsManager.swift; sourceTree = "<group>"; };
+		A2E5521B254EC331006ADEFC /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
 		C606A22389A82746DC04B5F0 /* Pods-PostsAppTwo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostsAppTwo.debug.xcconfig"; path = "Target Support Files/Pods-PostsAppTwo/Pods-PostsAppTwo.debug.xcconfig"; sourceTree = "<group>"; };
 		DEB0152085E0EC7D641C2E40 /* Pods-PostsAppTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostsAppTwo.release.xcconfig"; path = "Target Support Files/Pods-PostsAppTwo/Pods-PostsAppTwo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				A2E551FE254E94BA006ADEFC /* FirstViewController.swift */,
+				A2E55217254EBA20006ADEFC /* SecondViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -112,6 +119,8 @@
 			children = (
 				A2E55213254E95EC006ADEFC /* PostsManager.swift */,
 				A2E55215254EB3FB006ADEFC /* PostModel.swift */,
+				A2E55219254EC30E006ADEFC /* CommentsManager.swift */,
+				A2E5521B254EC331006ADEFC /* CommentModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -240,10 +249,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2E551FF254E94BA006ADEFC /* FirstViewController.swift in Sources */,
+				A2E5521A254EC30E006ADEFC /* CommentsManager.swift in Sources */,
 				A2E55216254EB3FB006ADEFC /* PostModel.swift in Sources */,
 				A2E551FB254E94BA006ADEFC /* AppDelegate.swift in Sources */,
 				A2E551FD254E94BA006ADEFC /* SceneDelegate.swift in Sources */,
+				A2E55218254EBA20006ADEFC /* SecondViewController.swift in Sources */,
 				A2E55214254E95EC006ADEFC /* PostsManager.swift in Sources */,
+				A2E5521C254EC331006ADEFC /* CommentModel.swift in Sources */,
 				A2E55212254E94FF006ADEFC /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
